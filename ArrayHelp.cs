@@ -36,6 +36,12 @@ namespace HW_13_Array
 
         public static int Unshift(ref S[] Mass, S NewElem)
         {
+            S[] NewMass = new S [Mass.Length + 1];
+            NewMass[0] = NewElem;
+            for (int j = 1; j < Mass.Length + 1; j++ )
+            NewMass[j] = Mass[j - 1]; 
+            NewMass [Mass.Length] = NewElem;
+            return Mass.Length;
             
         }
     }
