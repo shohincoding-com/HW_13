@@ -1,0 +1,11 @@
+C:\Users\SHOHIN\Desktop\c#_projects\HW_13\bin\Debug\netcoreapp3.1\HW_13.exe
+C:\Users\SHOHIN\Desktop\c#_projects\HW_13\bin\Debug\netcoreapp3.1\HW_13.deps.json
+C:\Users\SHOHIN\Desktop\c#_projects\HW_13\bin\Debug\netcoreapp3.1\HW_13.runtimeconfig.json
+C:\Users\SHOHIN\Desktop\c#_projects\HW_13\bin\Debug\netcoreapp3.1\HW_13.runtimeconfig.dev.json
+C:\Users\SHOHIN\Desktop\c#_projects\HW_13\bin\Debug\netcoreapp3.1\HW_13.dll
+C:\Users\SHOHIN\Desktop\c#_projects\HW_13\bin\Debug\netcoreapp3.1\HW_13.pdb
+C:\Users\SHOHIN\Desktop\c#_projects\HW_13\obj\Debug\netcoreapp3.1\HW_13.csprojAssemblyReference.cache
+C:\Users\SHOHIN\Desktop\c#_projects\HW_13\obj\Debug\netcoreapp3.1\HW_13.AssemblyInfoInputs.cache
+C:\Users\SHOHIN\Desktop\c#_projects\HW_13\obj\Debug\netcoreapp3.1\HW_13.AssemblyInfo.cs
+C:\Users\SHOHIN\Desktop\c#_projects\HW_13\obj\Debug\netcoreapp3.1\HW_13.dll
+C:\Users\SHOHIN\Desktop\c#_projects\HW_13\obj\Debug\netcoreapp3.1\HW_13.pdb
