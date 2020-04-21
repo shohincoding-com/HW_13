@@ -66,7 +66,7 @@ namespace HW_13
             }
             else if(UserCmd == 5)
             {
-                System.Console.WriteLine("Выбирите Индекса");
+                System.Console.WriteLine("Выбирите Индекса ");
                 int[]Arr = ArrayHelp<int>.Slice(IntMass);
             }
                 
