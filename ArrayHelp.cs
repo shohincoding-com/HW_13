@@ -44,5 +44,51 @@ namespace HW_13_Array
             return Mass.Length;
             
         }
+
+        public static S[] Slice(S[] Mass, int beginIndex = 0, int endIndex = 0)
+        {   
+            Console.WriteLine("1. beginIndex\n2. endIndex");
+            string UsCmd = Console.ReadLine();
+
+            if (UsCmd == "1")
+            {
+                Console.WriteLine("Введите значение beginIndex ");
+                int l = int.Parse(Console.ReadLine());
+                if(beginIndex>=0 && beginIndex <= Mass.Length)
+                {
+                    
+                    S FinalMass;
+                    
+                    FinalMass = Mass[Mass.Length-l];
+                    
+                    for ( int j = l; j < Mass.Length; j++ )
+                    Console.Write($"{Mass[j]} ");
+                    
+                }
+                return Mass ;
+            }
+            else if (UsCmd == "2")
+            {
+                Console.WriteLine("Введите значение EndIndex ");
+                int l = int.Parse(Console.ReadLine());
+                if(endIndex>=0 && endIndex <= Mass.Length)
+                {
+                    
+                    S FinalMass;
+                    FinalMass = Mass[Mass.Length - l];
+                    for ( int j = 0; j < l; j++ )
+                    Console.Write($"{Mass[j]} ");
+
+                }
+                return Mass ;
+            }
+            else{
+                Console.WriteLine("Error!");
+            }
+            return Mass;
+
+
+           
+        }
     }
 }
